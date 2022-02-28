@@ -484,7 +484,7 @@ const copyFileFromVmToVm = async (sourceVm, destinationVm, sourcePath, destinati
 
 //start the server in the port 8000 !
 app.listen(8000, function () {
-    console.log('Example app listening on port 8000.');
+    console.log(' app listening on port 8000.');
 });
 
 
