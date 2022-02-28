@@ -1,0 +1,27 @@
+{
+  "name": "sajadvm",
+  "version": "1.0.0",
+  "description": "vm managment server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "SajadSarlaki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "virtualbox": "^1.1.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "form-data": "^4.0.0",
+    "node-vbox": "^0.1.7"
+  }
+}
